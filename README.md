@@ -1,85 +1,80 @@
-Análise Financeira com Indicadores e Crescimento Anual 
+# 📈 Análise Financeira com Indicadores e Crescimento Anual
 
-Este repositório apresenta uma análise detalhada de dados financeiros ao longo de quatro anos, utilizando cálculos de indicadores-chave, métricas de rentabilidade e crescimento, acompanhados de visualizações gráficas para uma melhor compreensão dos resultados.
+Este repositório apresenta uma análise detalhada de dados financeiros ao longo de quatro anos, utilizando cálculos de indicadores-chave, métricas de rentabilidade e crescimento, acompanhados de visualizações gráficas que facilitam a compreensão dos resultados.
 
-Descrição do Projeto
-O objetivo principal deste projeto é calcular e interpretar indicadores financeiros essenciais e tendências de crescimento a partir de dados contábeis. São realizadas análises de:
+---
 
-Liquidez (Corrente, Seca e Imediata).
+## 📌 Descrição do Projeto
 
-Rentabilidade (ROA e ROE).
+O objetivo deste projeto é calcular e interpretar os principais indicadores financeiros e tendências de crescimento com base em dados contábeis. As análises realizadas incluem:
 
-Endividamento e Solvência.
+- **Liquidez** (Corrente, Seca e Imediata).  
+- **Rentabilidade** (ROA e ROE).  
+- **Endividamento e Solvência**.  
+- **Margens de lucro** e **crescimento anual da receita**.  
 
-Margens de lucro e crescimento anual da receita.
+Com isso, é possível identificar o desempenho financeiro e avaliar a sustentabilidade da empresa ao longo do tempo.
 
-Ferramentas e Tecnologias Utilizadas
-Python: Manipulação e análise de dados financeiros.
+---
 
-Bibliotecas:
+## 🛠️ Ferramentas e Tecnologias Utilizadas
 
-Pandas: Para cálculos financeiros e organização dos dados.
+- **Python**: Para manipulação e análise de dados financeiros.  
+- **Bibliotecas**:
+  - `Pandas`: Cálculos financeiros e organização de dados.  
+  - `Matplotlib` e `Seaborn`: Criação de gráficos explicativos.  
+- **Indicadores Financeiros**:
+  - Liquidez, Rentabilidade, Endividamento e Solvência.
 
-Matplotlib e Seaborn: Criação de gráficos explicativos.
+---
 
-Indicadores Financeiros: Liquidez, Rentabilidade, Endividamento e Solvência.
+## 📂 Estrutura do Projeto
 
-Estrutura do Projeto
-1. Cálculo dos Indicadores Financeiros
-Liquidez:
+### 1. **Cálculo dos Indicadores Financeiros**
+   - **Liquidez**:
+     - **Corrente**: Mede a capacidade de cobrir passivos circulantes com ativos circulantes.  
+     - **Seca**: Indicador mais conservador, excluindo estoques.  
+     - **Imediata**: Exclui estoques para avaliar a capacidade de liquidação imediata.  
 
-Corrente: Capacidade de cobrir passivos circulantes com ativos circulantes.
+   - **Rentabilidade**:
+     - **ROA (Retorno sobre Ativos)**: Mede a eficiência do uso de ativos.  
+     - **ROE (Retorno sobre Patrimônio Líquido)**: Avalia a eficiência do capital próprio.  
 
-Seca: Indicador mais conservador, desconsiderando estoques.
+   - **Margens de Lucro**:
+     - **Bruta e Operacional**: Mostram o percentual de lucro em relação às receitas.  
 
-Imediata: Exclui estoques e avalia capacidade de liquidação imediata.
+   - **Endividamento e Solvência**:
+     - Indicadores que medem o nível de dívida e a capacidade de solvência da empresa.  
 
-Rentabilidade:
+### 2. **Tendências de Crescimento**
+   - Análise do crescimento anual da receita operacional líquida e do resultado operacional.  
+   - Comparação entre anos para identificar melhorias ou declínios financeiros.  
 
-ROA (Retorno sobre Ativos): Mede a eficiência do uso de ativos.
+### 3. **Visualizações**
+   - Criação de gráficos detalhados que ilustram os indicadores financeiros e tendências de crescimento.
 
-ROE (Retorno sobre Patrimônio Líquido): Avalia a eficiência do capital próprio.
+---
 
-Margens de Lucro:
+## 📊 Exemplos de Visualizações
 
-Bruta e Operacional.
+1. **Liquidez Corrente e Seca**  
+   Gráfico de linhas comparando os índices de liquidez ao longo do tempo.  
 
-Endividamento e Solvência:
+2. **Margem de Lucro Bruta**  
+   Visualização do percentual de margem bruta ao longo dos anos, destacando a eficiência operacional.  
 
-Índices que medem o nível de dívida e a capacidade de solvência da empresa.
+3. **Margem de Lucro Operacional**  
+   Gráfico mostrando a eficiência em gerar lucro antes dos encargos financeiros.  
 
-2. Tendências de Crescimento
-Análise de crescimento anual da receita operacional líquida e do resultado operacional.
+4. **Índice de Endividamento**  
+   Representação gráfica da relação entre os passivos da empresa e o patrimônio líquido, evidenciando o nível de alavancagem.  
 
-Comparação entre anos para identificar melhorias ou declínios.
+5. **Crescimento Anual da Receita**  
+   Gráfico que destaca o crescimento percentual anual, refletindo a expansão da receita operacional líquida.  
 
-3. Visualizações
-Criação de gráficos detalhados para ilustrar os indicadores financeiros e as tendências de crescimento.
+6. **ROA e ROE**  
+   Gráficos focados na rentabilidade em relação aos ativos e ao patrimônio líquido.  
 
-Exemplos de Visualizações
-1. Liquidez Corrente e Seca
-Gráfico de linhas comparando os índices de liquidez ao longo do tempo.
+7. **Índice de Solvência Geral**  
+   Visualização da capacidade da empresa de honrar seus passivos totais ao longo do período analisado.  
 
-
-2. Margem de Lucro Bruta
-Visualização do percentual de margem bruta ao longo dos anos, destacando o crescimento da eficiência operacional.
-
-
-3. Margem de Lucro Operacional
-Representação das margens operacionais para avaliar a eficiência da empresa em gerar lucro antes dos encargos financeiros.
-
-
-4. Índice de Endividamento
-Gráfico que mostra a razão entre os passivos da empresa e o patrimônio líquido, evidenciando o nível de alavancagem.
-
-
-5. Crescimento Anual da Receita
-Gráfico de crescimento percentual anual, refletindo a expansão da receita operacional líquida.
-
-
-6. ROA e ROE
-Gráficos destacando o desempenho de rentabilidade em relação aos ativos e ao patrimônio líquido.
-
-
-7. Índice de Solvência Geral
-Visualização do índice que reflete a capacidade da empresa de honrar seus passivos totais.
